@@ -1,0 +1,8 @@
+matrix1 = np.loadtxt('data.csv',delimiter=',', skiprows=1,usecols=(3,4,5,6))
+print("Matrix-1:")
+print(matrix1)
+print()
+matrix2 = np.loadtxt('data.csv',delimiter=',', skiprows=1,usecols=(7,8,9,10))
+print("Matrix-2:")
+print(matrix1)
+print()
